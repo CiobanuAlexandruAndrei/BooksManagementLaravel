@@ -1,0 +1,35 @@
+.textarea-height {
+    height: 100px!important;
+}
+
+.nr_pages_width,
+.birthday_width{
+    width: 200px;
+}
+
+
+.list-book {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    justify-content: start; 
+}
+
+
+.book-top{
+    height: 150px;
+}
+
+.detail-book {
+    background-color: #fff;
+}
+
+.detail-book figure {
+    padding: 0;
+    margin: 0;
+}
+
+.detail-book figure img {
+    width: 100%;
+}
+
